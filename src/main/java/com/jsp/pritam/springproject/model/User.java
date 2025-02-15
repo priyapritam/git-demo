@@ -4,6 +4,7 @@ public class User {
     private int id;
     private String name;
     private double sal;
+    private String address;
 
     public int getId() {
         return id;
@@ -27,5 +28,13 @@ public class User {
 
     public void setSal(double sal) {
         this.sal = sal;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
